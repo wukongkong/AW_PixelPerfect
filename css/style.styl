@@ -1,0 +1,170 @@
+@import "../bower_components/normalize-css/normalize.css"
+@import "../bower_components/bootstrap/dist/css/bootstrap.css"
+@import "../bower_components/font-awesome/css/font-awesome.min.css"
+
+$site-backgroundColor = RGBA(255, 255, 255, 1)
+$site-navMenuColor = RGBA(108, 102, 122, 1)
+$site-subHeadingColor = RGBA(133, 123, 162, 1)
+$site-textDefaultColor = RGBA(120, 120, 120, 1)
+$btn-defaultColor = RGBA(141, 130, 171, 1)
+
+body
+  color $site-textDefaultColor
+
+.nav-bar
+  background-color $site-backgroundColor
+  height 100px
+.site-log
+  margin-top 25px
+  img
+    width 150px
+.nav-section
+  margin-top 40px
+  ul
+    li
+      margin 0 20px
+      a
+        color: $site-navMenuColor
+.btn-purchase
+  margin-top 40px
+  a
+    background-color $btn-defaultColor
+    padding 5px 30px
+    border-radius 15px
+    color $site-backgroundColor
+
+#overview
+  .landing
+    height 600px
+    background url(http://placehold.it/3400x2200) center center no-repeat
+    background-position center
+
+    h1, h2, p.version-info
+      position relative
+      top 50px
+
+    h1
+      color $site-backgroundColor
+      font-size 75px
+      margin 0
+    h2
+      color $site-subHeadingColor
+    p.version-info
+      color $site-textDefaultColor
+      text-transform uppercase
+
+    a.btn-download,
+    p.btn-download-info
+      position relative
+      top 405px
+
+    a.btn-download
+      background-color $btn-defaultColor
+      padding 5px 20px
+      border-radius 15px
+      color $site-backgroundColor
+      display inline-block
+      font-size 20px
+      left calc(50% - 257px/2)
+    p.btn-download-info
+      margin-top 10px
+
+  .landing-sub
+    h2
+      margin-top 100px
+      text-transform uppercase
+    p
+      display block
+      width 70%
+      margin 30px auto
+
+$site-aboutZumaBackgroundColor = RGBA(244, 244, 244, 1)
+$site-aboutZumaDefaultTextColor = RGBA(132, 142, 151, 1)
+$site-aboutZumaSubHeadingColor = RGBA(50, 50, 50, 1)
+$site-aboutZumaHeadingColor = RGBA(141, 130, 170, 1)
+$site-aboutZumaAngleBtnColor = RGBA(162, 162, 162, 1)
+$site-aboutZumaLinkColor = RGBA(140, 128, 170, 1)
+$btn-githubColor = RGBA(243, 243, 243, 1)
+$btn-twitterColor = RGBA(48, 166, 207, 1)
+$btn-facebookColor = RGBA(60, 90, 150, 1)
+#about-zuma
+
+  .screenshot
+    height 700px
+    margin-top 30px
+    background-color $site-aboutZumaBackgroundColor
+
+    section:first-child
+      margin-top 75px
+    section
+      margin 15px 0
+      h3
+        margin 0
+        font-size 20px
+        color $site-aboutZumaSubHeadingColor
+      p
+        color $site-aboutZumaDefaultTextColor
+      img
+        width 100px
+        height 100px
+    .editor
+      padding-right 0
+    h2
+      color $site-aboutZumaHeadingColor
+      margin-top 65px
+      font-size 40px
+    #screenshot-editor
+      width 100%
+      position relative
+      top 50px
+      overflow-x hidden
+
+  .recommandation
+    margin-top 80px
+    height 300px
+    a
+      color $site-aboutZumaLinkColor
+    a.btn-angle
+      text-decoration none
+      color $site-aboutZumaAngleBtnColor
+      position relative
+      top 140px
+    #carousel
+      img
+        width 100px
+        height 100px
+        border-radius 50px
+      padding-bottom 30px
+      border-bottom 1px solid $site-aboutZumaBackgroundColor
+    .text
+      margin-top 50px
+      line-height 200%
+  .social-network
+    margin 50px 0
+    ul
+      li
+        margin 0 50px
+      a
+        display inline-block
+        width 200px
+        padding 10px 30px
+        background-color black
+        border-radius 5px
+        color $site-backgroundColor
+        font-size 20px
+        span.fa
+          margin-top 3px
+      p
+        margin-top 10px
+        color $site-aboutZumaDefaultTextColor
+
+      #btn-github
+        color $site-aboutZumaSubHeadingColor
+        background-color $btn-githubColor
+      #btn-twitter
+        background-color $btn-twitterColor
+      #btn-facebook
+        background-color $btn-facebookColor
+
+
+

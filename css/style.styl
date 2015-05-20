@@ -10,6 +10,8 @@ $btn-defaultColor = RGBA(141, 130, 171, 1)
 
 body
   color $site-textDefaultColor
+  a
+    text-decoration none
 
 .nav-bar
   background-color $site-backgroundColor
@@ -106,7 +108,7 @@ $btn-facebookColor = RGBA(60, 90, 150, 1)
         color $site-aboutZumaDefaultTextColor
       img
         width 100px
-        height 100px
+        height 100%
     .editor
       padding-right 0
     h2
@@ -166,5 +168,186 @@ $btn-facebookColor = RGBA(60, 90, 150, 1)
       #btn-facebook
         background-color $btn-facebookColor
 
+#buying-option
+  padding-bottom 50px
+  background url(http://placehold.it/3400x2200) center center no-repeat
+  background-position center
+  section.clients
+    margin-top 100px
+    padding-bottom 50px
+    h1
+      color $site-backgroundColor
+      font-size 30px
+    img
+      width 80%
+      border 3px solid black
+      margin 50px auto
+      box-sizing border-box
+    p
+      color $site-backgroundColor
+    .separator
+      margin-top 50px
+      border-top 1px solid $site-aboutZumaBackgroundColor
+  section.pricing
+    h1
+      font-size 30px
+      color $site-aboutZumaBackgroundColor
+    .option
+      position relative
+      height 350px
+      width 100%
+      background-color BLACK
+      opacity 0.4
+      margin 30px 3px
+      div
+        background-color RGBA(0, 0, 0, 0.1)
+        h2
+          background-color BLACK
+          text-align center
+          padding 10px 30px
+          font-size 20px
+          color $site-backgroundColor
+          text-transform uppercase
+        p.price,
+        p.period
+          text-align center
+          color $site-backgroundColor
+          text-transform uppercase
+        p.price
+          font-size 50px
+        p.period
+          color $site-aboutZumaBackgroundColor
+        span
+          display block
+          width 75px
+          border-top 5px solid $site-subHeadingColor
+          margin 30px auto
+        ul
+          list-style none
+          text-align center
+          padding 0
+          color $site-backgroundColor
+        a
+          padding 5px 20px
+          display block
+          width 130px
+          margin 20px auto
+          text-align center
+          background-color WHITE
+          border-radius 20px
+          position absolute
+          top 280px
+          left 25%
+          text-transform uppercase
+    .option.agency
+      position relative
+      top -25px
+      height 400px
+      width 100%
+      div
+        background BLACK
+      p.price
+        font-size 70px
+      a
+        top 320px
+        left 25%
+#support
+  .newsletter
+    height 100px
+    background-color $site-aboutZumaBackgroundColor
+    h1
+      font-size 25px
+      text-align center
+      margin 35px 0
+    form
+      margin-top 35px
+      input#textbox
+        border-radius 30px
+        width 250px
+        border 1px solid #eeeeee
+        height 30px
+        padding-left 3%
+        font-size 1.2em
+        line-height 1.5em
+        color #333333
+        letter-spacing .01em
+        font-style normal
+        font-weight 300
+      input#submit
+        background-color $site-subHeadingColor
+        color WHITE
+        width 130px
+        height 30px
+        text-align center
+        border-radius 30px
+        border 1px solid #eeeeee
+        margin 0 10px
 
+  .support
+    border-bottom 1px solid $site-aboutZumaBackgroundColor
+  .support-info
+    margin-top 35px
+    padding-bottom 50px
 
+    background-color $site-backgroundColor
+    h1
+      color $site-textDefaultColor
+      font-size 20px
+    h2
+      color BLACK
+      font-size 13px
+    p
+      color $site-aboutZumaDefaultTextColor
+      font-size 11px
+    a
+      padding 5px 10px
+      background-color $site-aboutZumaBackgroundColor
+      display inline-block
+      margin-top 30px
+      width 150px
+      text-align center
+      color $site-subHeadingColor
+    ol
+      list-style none
+      padding-left 0
+#footer
+  margin-top 50px
+  padding-bottom 50px
+  .info
+    p
+      color $site-textDefaultColor
+      margin 20px 0
+      font-size 10px
+  .nav
+    h3
+      font-size 15px
+      margin 0 0 15px 0
+    ul
+      padding-left 0
+      li
+        list-style none
+        margin 5px 0
+      a
+        color $site-aboutZumaLinkColor
+  .contact
+    p.phone
+      font-size 25px
+      margin-bottom 0
+      color BLACK
+    p
+      text-transform uppercase
+      font-size 10px
+    address
+      margin-top 15px
+      span.city
+        font-size 20px
+        color BLACK
+      span
+        font-size 10px
+  .info-more
+    h3
+      color BLACK
+      font-size 13px
+      margin 0 0 15px 0
+    p
+      font-size 10px

@@ -1,5 +1,5 @@
 
-/* line 167 : /Users/X/Desktop/AW_ZUMATA/css/style.styl */
+/* line 353 : /Users/X/Desktop/AW_ZUMATA/css/style.styl */
 
 /* line 1 : /Applications/CodeKit.app/Contents/Resources/engines/stylus/lib/functions/index.styl */
 
@@ -6954,45 +6954,50 @@ body {
   color: RGBA(120, 120, 120, 1);
 }
 
-/* line 14 : /Users/X/Desktop/AW_ZUMATA/css/style.styl */
+/* line 13 : /Users/X/Desktop/AW_ZUMATA/css/style.styl */
+body a {
+  text-decoration: none;
+}
+
+/* line 16 : /Users/X/Desktop/AW_ZUMATA/css/style.styl */
 .nav-bar {
   background-color: RGBA(255, 255, 255, 1);
   height: 100px;
 }
 
-/* line 17 : /Users/X/Desktop/AW_ZUMATA/css/style.styl */
+/* line 19 : /Users/X/Desktop/AW_ZUMATA/css/style.styl */
 .site-log {
   margin-top: 25px;
 }
 
-/* line 19 : /Users/X/Desktop/AW_ZUMATA/css/style.styl */
+/* line 21 : /Users/X/Desktop/AW_ZUMATA/css/style.styl */
 .site-log img {
   width: 150px;
 }
 
-/* line 21 : /Users/X/Desktop/AW_ZUMATA/css/style.styl */
+/* line 23 : /Users/X/Desktop/AW_ZUMATA/css/style.styl */
 .nav-section {
   margin-top: 40px;
 }
 
-/* line 23 : /Users/X/Desktop/AW_ZUMATA/css/style.styl */
+/* line 25 : /Users/X/Desktop/AW_ZUMATA/css/style.styl */
 
-/* line 24 : /Users/X/Desktop/AW_ZUMATA/css/style.styl */
+/* line 26 : /Users/X/Desktop/AW_ZUMATA/css/style.styl */
 .nav-section ul li {
   margin: 0 20px;
 }
 
-/* line 26 : /Users/X/Desktop/AW_ZUMATA/css/style.styl */
+/* line 28 : /Users/X/Desktop/AW_ZUMATA/css/style.styl */
 .nav-section ul li a {
   color: RGBA(108, 102, 122, 1);
 }
 
-/* line 28 : /Users/X/Desktop/AW_ZUMATA/css/style.styl */
+/* line 30 : /Users/X/Desktop/AW_ZUMATA/css/style.styl */
 .btn-purchase {
   margin-top: 40px;
 }
 
-/* line 30 : /Users/X/Desktop/AW_ZUMATA/css/style.styl */
+/* line 32 : /Users/X/Desktop/AW_ZUMATA/css/style.styl */
 .btn-purchase a {
   background-color: RGBA(141, 130, 171, 1);
   padding: 5px 30px;
@@ -7000,16 +7005,16 @@ body {
   color: RGBA(255, 255, 255, 1);
 }
 
-/* line 36 : /Users/X/Desktop/AW_ZUMATA/css/style.styl */
+/* line 38 : /Users/X/Desktop/AW_ZUMATA/css/style.styl */
 
-/* line 37 : /Users/X/Desktop/AW_ZUMATA/css/style.styl */
+/* line 39 : /Users/X/Desktop/AW_ZUMATA/css/style.styl */
 #overview .landing {
   height: 600px;
   background: url("http://placehold.it/3400x2200") center center no-repeat;
   background-position: center;
 }
 
-/* line 42 : /Users/X/Desktop/AW_ZUMATA/css/style.styl */
+/* line 44 : /Users/X/Desktop/AW_ZUMATA/css/style.styl */
 #overview .landing h1,
 #overview .landing h2,
 #overview .landing p.version-info {
@@ -7017,32 +7022,32 @@ body {
   top: 50px;
 }
 
-/* line 46 : /Users/X/Desktop/AW_ZUMATA/css/style.styl */
+/* line 48 : /Users/X/Desktop/AW_ZUMATA/css/style.styl */
 #overview .landing h1 {
   color: RGBA(255, 255, 255, 1);
   font-size: 75px;
   margin: 0;
 }
 
-/* line 50 : /Users/X/Desktop/AW_ZUMATA/css/style.styl */
+/* line 52 : /Users/X/Desktop/AW_ZUMATA/css/style.styl */
 #overview .landing h2 {
   color: RGBA(133, 123, 162, 1);
 }
 
-/* line 52 : /Users/X/Desktop/AW_ZUMATA/css/style.styl */
+/* line 54 : /Users/X/Desktop/AW_ZUMATA/css/style.styl */
 #overview .landing p.version-info {
   color: RGBA(120, 120, 120, 1);
   text-transform: uppercase;
 }
 
-/* line 56 : /Users/X/Desktop/AW_ZUMATA/css/style.styl */
+/* line 58 : /Users/X/Desktop/AW_ZUMATA/css/style.styl */
 #overview .landing a.btn-download,
 #overview .landing p.btn-download-info {
   position: relative;
   top: 405px;
 }
 
-/* line 61 : /Users/X/Desktop/AW_ZUMATA/css/style.styl */
+/* line 63 : /Users/X/Desktop/AW_ZUMATA/css/style.styl */
 #overview .landing a.btn-download {
   background-color: RGBA(141, 130, 171, 1);
   padding: 5px 20px;
@@ -7053,76 +7058,76 @@ body {
   left: calc(50% - 257px / 2);
 }
 
-/* line 69 : /Users/X/Desktop/AW_ZUMATA/css/style.styl */
+/* line 71 : /Users/X/Desktop/AW_ZUMATA/css/style.styl */
 #overview .landing p.btn-download-info {
   margin-top: 10px;
 }
 
-/* line 72 : /Users/X/Desktop/AW_ZUMATA/css/style.styl */
+/* line 74 : /Users/X/Desktop/AW_ZUMATA/css/style.styl */
 
-/* line 73 : /Users/X/Desktop/AW_ZUMATA/css/style.styl */
+/* line 75 : /Users/X/Desktop/AW_ZUMATA/css/style.styl */
 #overview .landing-sub h2 {
   margin-top: 100px;
   text-transform: uppercase;
 }
 
-/* line 76 : /Users/X/Desktop/AW_ZUMATA/css/style.styl */
+/* line 78 : /Users/X/Desktop/AW_ZUMATA/css/style.styl */
 #overview .landing-sub p {
   display: block;
   width: 70%;
   margin: 30px auto;
 }
 
-/* line 90 : /Users/X/Desktop/AW_ZUMATA/css/style.styl */
-
 /* line 92 : /Users/X/Desktop/AW_ZUMATA/css/style.styl */
+
+/* line 94 : /Users/X/Desktop/AW_ZUMATA/css/style.styl */
 #about-zuma .screenshot {
   height: 700px;
   margin-top: 30px;
   background-color: RGBA(244, 244, 244, 1);
 }
 
-/* line 97 : /Users/X/Desktop/AW_ZUMATA/css/style.styl */
+/* line 99 : /Users/X/Desktop/AW_ZUMATA/css/style.styl */
 #about-zuma .screenshot section:first-child {
   margin-top: 75px;
 }
 
-/* line 99 : /Users/X/Desktop/AW_ZUMATA/css/style.styl */
+/* line 101 : /Users/X/Desktop/AW_ZUMATA/css/style.styl */
 #about-zuma .screenshot section {
   margin: 15px 0;
 }
 
-/* line 101 : /Users/X/Desktop/AW_ZUMATA/css/style.styl */
+/* line 103 : /Users/X/Desktop/AW_ZUMATA/css/style.styl */
 #about-zuma .screenshot section h3 {
   margin: 0;
   font-size: 20px;
   color: RGBA(50, 50, 50, 1);
 }
 
-/* line 105 : /Users/X/Desktop/AW_ZUMATA/css/style.styl */
+/* line 107 : /Users/X/Desktop/AW_ZUMATA/css/style.styl */
 #about-zuma .screenshot section p {
   color: RGBA(132, 142, 151, 1);
 }
 
-/* line 107 : /Users/X/Desktop/AW_ZUMATA/css/style.styl */
+/* line 109 : /Users/X/Desktop/AW_ZUMATA/css/style.styl */
 #about-zuma .screenshot section img {
   width: 100px;
-  height: 100px;
+  height: 100%;
 }
 
-/* line 110 : /Users/X/Desktop/AW_ZUMATA/css/style.styl */
+/* line 112 : /Users/X/Desktop/AW_ZUMATA/css/style.styl */
 #about-zuma .screenshot .editor {
   padding-right: 0;
 }
 
-/* line 112 : /Users/X/Desktop/AW_ZUMATA/css/style.styl */
+/* line 114 : /Users/X/Desktop/AW_ZUMATA/css/style.styl */
 #about-zuma .screenshot h2 {
   color: RGBA(141, 130, 170, 1);
   margin-top: 65px;
   font-size: 40px;
 }
 
-/* line 116 : /Users/X/Desktop/AW_ZUMATA/css/style.styl */
+/* line 118 : /Users/X/Desktop/AW_ZUMATA/css/style.styl */
 #about-zuma .screenshot #screenshot-editor {
   width: 100%;
   position: relative;
@@ -7130,18 +7135,18 @@ body {
   overflow-x: hidden;
 }
 
-/* line 122 : /Users/X/Desktop/AW_ZUMATA/css/style.styl */
+/* line 124 : /Users/X/Desktop/AW_ZUMATA/css/style.styl */
 #about-zuma .recommandation {
   margin-top: 80px;
   height: 300px;
 }
 
-/* line 125 : /Users/X/Desktop/AW_ZUMATA/css/style.styl */
+/* line 127 : /Users/X/Desktop/AW_ZUMATA/css/style.styl */
 #about-zuma .recommandation a {
   color: RGBA(140, 128, 170, 1);
 }
 
-/* line 127 : /Users/X/Desktop/AW_ZUMATA/css/style.styl */
+/* line 129 : /Users/X/Desktop/AW_ZUMATA/css/style.styl */
 #about-zuma .recommandation a.btn-angle {
   text-decoration: none;
   color: RGBA(162, 162, 162, 1);
@@ -7149,38 +7154,38 @@ body {
   top: 140px;
 }
 
-/* line 132 : /Users/X/Desktop/AW_ZUMATA/css/style.styl */
+/* line 134 : /Users/X/Desktop/AW_ZUMATA/css/style.styl */
 #about-zuma .recommandation #carousel {
   padding-bottom: 30px;
   border-bottom: 1px solid RGBA(244, 244, 244, 1);
 }
 
-/* line 133 : /Users/X/Desktop/AW_ZUMATA/css/style.styl */
+/* line 135 : /Users/X/Desktop/AW_ZUMATA/css/style.styl */
 #about-zuma .recommandation #carousel img {
   width: 100px;
   height: 100px;
   border-radius: 50px;
 }
 
-/* line 139 : /Users/X/Desktop/AW_ZUMATA/css/style.styl */
+/* line 141 : /Users/X/Desktop/AW_ZUMATA/css/style.styl */
 #about-zuma .recommandation .text {
   margin-top: 50px;
   line-height: 200%;
 }
 
-/* line 142 : /Users/X/Desktop/AW_ZUMATA/css/style.styl */
+/* line 144 : /Users/X/Desktop/AW_ZUMATA/css/style.styl */
 #about-zuma .social-network {
   margin: 50px 0;
 }
 
-/* line 144 : /Users/X/Desktop/AW_ZUMATA/css/style.styl */
+/* line 146 : /Users/X/Desktop/AW_ZUMATA/css/style.styl */
 
-/* line 145 : /Users/X/Desktop/AW_ZUMATA/css/style.styl */
+/* line 147 : /Users/X/Desktop/AW_ZUMATA/css/style.styl */
 #about-zuma .social-network ul li {
   margin: 0 50px;
 }
 
-/* line 147 : /Users/X/Desktop/AW_ZUMATA/css/style.styl */
+/* line 149 : /Users/X/Desktop/AW_ZUMATA/css/style.styl */
 #about-zuma .social-network ul a {
   display: inline-block;
   width: 200px;
@@ -7191,30 +7196,352 @@ body {
   font-size: 20px;
 }
 
-/* line 155 : /Users/X/Desktop/AW_ZUMATA/css/style.styl */
+/* line 157 : /Users/X/Desktop/AW_ZUMATA/css/style.styl */
 #about-zuma .social-network ul a span.fa {
   margin-top: 3px;
 }
 
-/* line 157 : /Users/X/Desktop/AW_ZUMATA/css/style.styl */
+/* line 159 : /Users/X/Desktop/AW_ZUMATA/css/style.styl */
 #about-zuma .social-network ul p {
   margin-top: 10px;
   color: RGBA(132, 142, 151, 1);
 }
 
-/* line 161 : /Users/X/Desktop/AW_ZUMATA/css/style.styl */
+/* line 163 : /Users/X/Desktop/AW_ZUMATA/css/style.styl */
 #about-zuma .social-network ul #btn-github {
   color: RGBA(50, 50, 50, 1);
   background-color: RGBA(243, 243, 243, 1);
 }
 
-/* line 164 : /Users/X/Desktop/AW_ZUMATA/css/style.styl */
+/* line 166 : /Users/X/Desktop/AW_ZUMATA/css/style.styl */
 #about-zuma .social-network ul #btn-twitter {
   background-color: RGBA(48, 166, 207, 1);
 }
 
-/* line 166 : /Users/X/Desktop/AW_ZUMATA/css/style.styl */
+/* line 168 : /Users/X/Desktop/AW_ZUMATA/css/style.styl */
 #about-zuma .social-network ul #btn-facebook {
   background-color: RGBA(60, 90, 150, 1);
+}
+
+/* line 171 : /Users/X/Desktop/AW_ZUMATA/css/style.styl */
+#buying-option {
+  padding-bottom: 50px;
+  background: url("http://placehold.it/3400x2200") center center no-repeat;
+  background-position: center;
+}
+
+/* line 175 : /Users/X/Desktop/AW_ZUMATA/css/style.styl */
+#buying-option section.clients {
+  margin-top: 100px;
+  padding-bottom: 50px;
+}
+
+/* line 178 : /Users/X/Desktop/AW_ZUMATA/css/style.styl */
+#buying-option section.clients h1 {
+  color: RGBA(255, 255, 255, 1);
+  font-size: 30px;
+}
+
+/* line 181 : /Users/X/Desktop/AW_ZUMATA/css/style.styl */
+#buying-option section.clients img {
+  width: 80%;
+  border: 3px solid #000;
+  margin: 50px auto;
+  box-sizing: border-box;
+}
+
+/* line 186 : /Users/X/Desktop/AW_ZUMATA/css/style.styl */
+#buying-option section.clients p {
+  color: RGBA(255, 255, 255, 1);
+}
+
+/* line 188 : /Users/X/Desktop/AW_ZUMATA/css/style.styl */
+#buying-option section.clients .separator {
+  margin-top: 50px;
+  border-top: 1px solid RGBA(244, 244, 244, 1);
+}
+
+/* line 191 : /Users/X/Desktop/AW_ZUMATA/css/style.styl */
+
+/* line 192 : /Users/X/Desktop/AW_ZUMATA/css/style.styl */
+#buying-option section.pricing h1 {
+  font-size: 30px;
+  color: RGBA(244, 244, 244, 1);
+}
+
+/* line 195 : /Users/X/Desktop/AW_ZUMATA/css/style.styl */
+#buying-option section.pricing .option {
+  position: relative;
+  height: 350px;
+  width: 100%;
+  background-color: BLACK;
+  opacity: 0.4;
+  margin: 30px 3px;
+}
+
+/* line 202 : /Users/X/Desktop/AW_ZUMATA/css/style.styl */
+#buying-option section.pricing .option div {
+  background-color: RGBA(0, 0, 0, 0.1);
+}
+
+/* line 204 : /Users/X/Desktop/AW_ZUMATA/css/style.styl */
+#buying-option section.pricing .option div h2 {
+  background-color: BLACK;
+  text-align: center;
+  padding: 10px 30px;
+  font-size: 20px;
+  color: RGBA(255, 255, 255, 1);
+  text-transform: uppercase;
+}
+
+/* line 211 : /Users/X/Desktop/AW_ZUMATA/css/style.styl */
+#buying-option section.pricing .option div p.price,
+#buying-option section.pricing .option div p.period {
+  text-align: center;
+  color: RGBA(255, 255, 255, 1);
+  text-transform: uppercase;
+}
+
+/* line 216 : /Users/X/Desktop/AW_ZUMATA/css/style.styl */
+#buying-option section.pricing .option div p.price {
+  font-size: 50px;
+}
+
+/* line 218 : /Users/X/Desktop/AW_ZUMATA/css/style.styl */
+#buying-option section.pricing .option div p.period {
+  color: RGBA(244, 244, 244, 1);
+}
+
+/* line 220 : /Users/X/Desktop/AW_ZUMATA/css/style.styl */
+#buying-option section.pricing .option div span {
+  display: block;
+  width: 75px;
+  border-top: 5px solid RGBA(133, 123, 162, 1);
+  margin: 30px auto;
+}
+
+/* line 225 : /Users/X/Desktop/AW_ZUMATA/css/style.styl */
+#buying-option section.pricing .option div ul {
+  list-style: none;
+  text-align: center;
+  padding: 0;
+  color: RGBA(255, 255, 255, 1);
+}
+
+/* line 230 : /Users/X/Desktop/AW_ZUMATA/css/style.styl */
+#buying-option section.pricing .option div a {
+  padding: 5px 20px;
+  display: block;
+  width: 130px;
+  margin: 20px auto;
+  text-align: center;
+  background-color: WHITE;
+  border-radius: 20px;
+  position: absolute;
+  top: 280px;
+  left: 25%;
+  text-transform: uppercase;
+}
+
+/* line 242 : /Users/X/Desktop/AW_ZUMATA/css/style.styl */
+#buying-option section.pricing .option.agency {
+  position: relative;
+  top: -25px;
+  height: 400px;
+  width: 100%;
+}
+
+/* line 247 : /Users/X/Desktop/AW_ZUMATA/css/style.styl */
+#buying-option section.pricing .option.agency div {
+  background: BLACK;
+}
+
+/* line 249 : /Users/X/Desktop/AW_ZUMATA/css/style.styl */
+#buying-option section.pricing .option.agency p.price {
+  font-size: 70px;
+}
+
+/* line 251 : /Users/X/Desktop/AW_ZUMATA/css/style.styl */
+#buying-option section.pricing .option.agency a {
+  top: 320px;
+  left: 25%;
+}
+
+/* line 254 : /Users/X/Desktop/AW_ZUMATA/css/style.styl */
+
+/* line 255 : /Users/X/Desktop/AW_ZUMATA/css/style.styl */
+#support .newsletter {
+  height: 100px;
+  background-color: RGBA(244, 244, 244, 1);
+}
+
+/* line 258 : /Users/X/Desktop/AW_ZUMATA/css/style.styl */
+#support .newsletter h1 {
+  font-size: 25px;
+  text-align: center;
+  margin: 35px 0;
+}
+
+/* line 262 : /Users/X/Desktop/AW_ZUMATA/css/style.styl */
+#support .newsletter form {
+  margin-top: 35px;
+}
+
+/* line 264 : /Users/X/Desktop/AW_ZUMATA/css/style.styl */
+#support .newsletter form input#textbox {
+  border-radius: 30px;
+  width: 250px;
+  border: 1px solid #eee;
+  height: 30px;
+  padding-left: 3%;
+  font-size: 1.2em;
+  line-height: 1.5em;
+  color: #333;
+  letter-spacing: 0.01em;
+  font-style: normal;
+  font-weight: 300;
+}
+
+/* line 276 : /Users/X/Desktop/AW_ZUMATA/css/style.styl */
+#support .newsletter form input#submit {
+  background-color: RGBA(133, 123, 162, 1);
+  color: WHITE;
+  width: 130px;
+  height: 30px;
+  text-align: center;
+  border-radius: 30px;
+  border: 1px solid #eee;
+  margin: 0 10px;
+}
+
+/* line 286 : /Users/X/Desktop/AW_ZUMATA/css/style.styl */
+#support .support {
+  border-bottom: 1px solid RGBA(244, 244, 244, 1);
+}
+
+/* line 288 : /Users/X/Desktop/AW_ZUMATA/css/style.styl */
+#support .support-info {
+  margin-top: 35px;
+  padding-bottom: 50px;
+  background-color: RGBA(255, 255, 255, 1);
+}
+
+/* line 293 : /Users/X/Desktop/AW_ZUMATA/css/style.styl */
+#support .support-info h1 {
+  color: RGBA(120, 120, 120, 1);
+  font-size: 20px;
+}
+
+/* line 296 : /Users/X/Desktop/AW_ZUMATA/css/style.styl */
+#support .support-info h2 {
+  color: BLACK;
+  font-size: 13px;
+}
+
+/* line 299 : /Users/X/Desktop/AW_ZUMATA/css/style.styl */
+#support .support-info p {
+  color: RGBA(132, 142, 151, 1);
+  font-size: 11px;
+}
+
+/* line 302 : /Users/X/Desktop/AW_ZUMATA/css/style.styl */
+#support .support-info a {
+  padding: 5px 10px;
+  background-color: RGBA(244, 244, 244, 1);
+  display: inline-block;
+  margin-top: 30px;
+  width: 150px;
+  text-align: center;
+  color: RGBA(133, 123, 162, 1);
+}
+
+/* line 310 : /Users/X/Desktop/AW_ZUMATA/css/style.styl */
+#support .support-info ol {
+  list-style: none;
+  padding-left: 0;
+}
+
+/* line 313 : /Users/X/Desktop/AW_ZUMATA/css/style.styl */
+#footer {
+  margin-top: 50px;
+  padding-bottom: 50px;
+}
+
+/* line 316 : /Users/X/Desktop/AW_ZUMATA/css/style.styl */
+
+/* line 317 : /Users/X/Desktop/AW_ZUMATA/css/style.styl */
+#footer .info p {
+  color: RGBA(120, 120, 120, 1);
+  margin: 20px 0;
+  font-size: 10px;
+}
+
+/* line 321 : /Users/X/Desktop/AW_ZUMATA/css/style.styl */
+
+/* line 322 : /Users/X/Desktop/AW_ZUMATA/css/style.styl */
+#footer .nav h3 {
+  font-size: 15px;
+  margin: 0 0 15px 0;
+}
+
+/* line 325 : /Users/X/Desktop/AW_ZUMATA/css/style.styl */
+#footer .nav ul {
+  padding-left: 0;
+}
+
+/* line 327 : /Users/X/Desktop/AW_ZUMATA/css/style.styl */
+#footer .nav ul li {
+  list-style: none;
+  margin: 5px 0;
+}
+
+/* line 330 : /Users/X/Desktop/AW_ZUMATA/css/style.styl */
+#footer .nav ul a {
+  color: RGBA(140, 128, 170, 1);
+}
+
+/* line 332 : /Users/X/Desktop/AW_ZUMATA/css/style.styl */
+
+/* line 333 : /Users/X/Desktop/AW_ZUMATA/css/style.styl */
+#footer .contact p.phone {
+  font-size: 25px;
+  margin-bottom: 0;
+  color: BLACK;
+}
+
+/* line 337 : /Users/X/Desktop/AW_ZUMATA/css/style.styl */
+#footer .contact p {
+  text-transform: uppercase;
+  font-size: 10px;
+}
+
+/* line 340 : /Users/X/Desktop/AW_ZUMATA/css/style.styl */
+#footer .contact address {
+  margin-top: 15px;
+}
+
+/* line 342 : /Users/X/Desktop/AW_ZUMATA/css/style.styl */
+#footer .contact address span.city {
+  font-size: 20px;
+  color: BLACK;
+}
+
+/* line 345 : /Users/X/Desktop/AW_ZUMATA/css/style.styl */
+#footer .contact address span {
+  font-size: 10px;
+}
+
+/* line 347 : /Users/X/Desktop/AW_ZUMATA/css/style.styl */
+
+/* line 348 : /Users/X/Desktop/AW_ZUMATA/css/style.styl */
+#footer .info-more h3 {
+  color: BLACK;
+  font-size: 13px;
+  margin: 0 0 15px 0;
+}
+
+/* line 352 : /Users/X/Desktop/AW_ZUMATA/css/style.styl */
+#footer .info-more p {
+  font-size: 10px;
 }
 /*# sourceMappingURL=style.css.map */

@@ -4,6 +4,8 @@
 
 [GitHub Repo: ZUMA App](https://github.com/li-xinyang/AW_ZUMATA)
 
+Preview The Site [HERE](http://li-xinyang.com/AW_ZUMATA/)
+
 ### Task
 
 This is an assessment of your practical front-end development skills. Your task is to develop a simple one-page website layout based upon this mockup. You may download the psd files here.

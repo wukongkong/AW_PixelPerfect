@@ -2,7 +2,11 @@ body {
   text-align: center;
   font-family: 'Lato', sans-serif;
 }
-.clear-fix {
+.clear:before, .clear:after {
+  content: " ";
+  display: table;
+}
+.clear:after {
   clear: both;
 }
 .hero {
@@ -83,4 +87,48 @@ body {
   outline: none;
   text-transform: uppercase;
   font-size: 13px;
+}
+.numbers {
+  width: 1060px;
+  margin: 0 auto;
+}
+.numbers ul {
+  margin: 0;
+  padding: 0;
+  position: relative;
+  top: -90px;
+  background: white;
+  border-radius: 2px;
+}
+.numbers li {
+  float: left;
+  width: 25%;
+  list-style: none;
+  box-sizing: border-box;
+  border-top: 1px solid #D9DADA;
+  border-bottom: 1px solid #D9DADA;
+  border-left: 1px solid #D9DADA;
+}
+.numbers li:first-child {
+  border-radius: 2px 0 0 2px;
+}
+.numbers li:last-child {
+  border-right: 1px solid #D9DADA;
+  border-radius: 0 2px 2px 0;
+}
+.numbers li h2 {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 27px;
+  margin: 0;
+  padding-top: 45px;
+  font-weight: 600;
+  color: rgba(47, 51, 62, 1);
+  letter-spacing: 1px;
+}
+.numbers li h3 {
+  margin: 0;
+  font-size: 17px;
+  padding: 25px 0 40px 0;
+  font-weight: 400;
+  color: rgba(101, 101, 111, 1);
 }

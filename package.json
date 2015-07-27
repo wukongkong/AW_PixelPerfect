@@ -1,0 +1,23 @@
+{
+  "name": "pixel-perfect",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/li-xinyang/AW_PixelPerfect.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/li-xinyang/AW_PixelPerfect/issues"
+  },
+  "homepage": "https://github.com/li-xinyang/AW_PixelPerfect",
+  "devDependencies": {
+    "gulp": "^3.9.0",
+    "gulp-connect": "^2.2.0"
+  }
+}

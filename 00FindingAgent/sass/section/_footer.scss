@@ -1,0 +1,78 @@
+footer {
+  .search {
+    background-color: black;
+    background: url("../../img/Hero.jpg") no-repeat;
+  }
+
+  form {
+    padding-top: 11rem;
+    padding-bottom: 11rem;
+
+    label {
+      color: $color-base-text;
+      font-size: $font-heading-one;
+      padding-right: 2.5rem;
+    }
+    input[type="text"] {
+      height: 6rem;
+      width: 72rem;
+      font-size: $font-base;
+      padding: 2.5rem;
+      box-sizing: border-box;
+      outline: none;
+      border-radius: $size-control-border-radius 0 0 $size-control-border-radius;
+      border: none;
+      background-color: rgba($color-base-text, .85);
+    }
+    input[type="button"] {
+      background-color: #82DDA9;
+      color: $color-base-text;
+      font-weight: 400;
+      height: 6rem;
+      width: 12rem;
+      font-size: $font-base;
+      padding: 2.5rem;
+      box-sizing: border-box;
+      outline: none;
+      border-radius: 0 $size-control-border-radius $size-control-border-radius 0;
+      border: none;
+      position: relative;
+      top: .4rem;
+      left: -.4rem;
+    }
+  }
+
+  nav {
+    width: 107rem;
+    margin: 0 auto;
+    li {
+      padding: 3.3rem 1.5rem;
+      font-size: $font-base;
+      color: $color-second-text;
+    }
+  }
+
+  .site {
+    float: left;
+    li {
+      float: left;
+    }
+  }
+
+  .social {
+    float:right;
+    li {
+      float: left;
+      font-size: $font-heading-three;
+    }
+  }
+
+  .fa-twitter {
+    color: #639BDA;
+  }
+
+  .fa-facebook {
+    color: #5B72BB;
+  }
+
+}

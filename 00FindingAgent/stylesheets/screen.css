@@ -524,15 +524,74 @@ body {
   left: 0.1rem;
   border-radius: 100%;
 }
-.testimonials::after {
-  content: " ";
-  display: block;
-  width: 150%;
-  height: 0.1rem;
+
+footer .search {
+  background-color: black;
+  background: url("../../img/Hero.jpg") no-repeat;
+}
+footer form {
+  padding-top: 11rem;
+  padding-bottom: 11rem;
+}
+footer form label {
+  color: white;
+  font-size: 2.5rem;
+  padding-right: 2.5rem;
+}
+footer form input[type="text"] {
+  height: 6rem;
+  width: 72rem;
+  font-size: 1.4rem;
+  padding: 2.5rem;
+  box-sizing: border-box;
+  outline: none;
+  border-radius: 2px 0 0 2px;
+  border: none;
+  background-color: rgba(255, 255, 255, 0.85);
+}
+footer form input[type="button"] {
+  background-color: #82DDA9;
+  color: white;
+  font-weight: 400;
+  height: 6rem;
+  width: 12rem;
+  font-size: 1.4rem;
+  padding: 2.5rem;
+  box-sizing: border-box;
+  outline: none;
+  border-radius: 0 2px 2px 0;
+  border: none;
   position: relative;
-  left: -20%;
-  margin: 10px 0;
-  background-color: #dbdad8;
+  top: .4rem;
+  left: -.4rem;
+}
+footer nav {
+  width: 107rem;
+  margin: 0 auto;
+}
+footer nav li {
+  padding: 3.3rem 1.5rem;
+  font-size: 1.4rem;
+  color: #6f6d70;
+}
+footer .site {
+  float: left;
+}
+footer .site li {
+  float: left;
+}
+footer .social {
+  float: right;
+}
+footer .social li {
+  float: left;
+  font-size: 2rem;
+}
+footer .fa-twitter {
+  color: #639BDA;
+}
+footer .fa-facebook {
+  color: #5B72BB;
 }
 
 /*# sourceMappingURL=screen.css.map */

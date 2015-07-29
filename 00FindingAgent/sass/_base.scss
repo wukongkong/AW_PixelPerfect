@@ -24,10 +24,12 @@ $font-heading-one: 2.5rem;
 $font-heading-two: 1.7rem;
 $font-heading-three: 2.0rem;
 body {
+  min-width: 80rem;
   text-align: center; // Brainless text align reset
   font-size: $font-base;
   overflow-x: hidden;
 }
+
 
 // Mixin
 @mixin dash-under-heading($height: 0.3rem, $margin: 1rem) {

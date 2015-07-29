@@ -33,10 +33,11 @@
   }
 
   h2 {
-    font-size: $font-heading-two;
+    font-size: $font-base;
     font-weight: 500;
     padding-top: 8.5rem;
     padding-bottom: 6rem;
+    text-transform: uppercase;
   }
 
   h3 {

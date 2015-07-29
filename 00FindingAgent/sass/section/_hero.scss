@@ -21,6 +21,13 @@
         font-size: $font-base;
         border-radius: $size-control-border-radius;
         border: 1px solid transparent;
+        cursor: default;
+        transition: border .6s;
+
+        &:hover {
+          border: 1px solid rgba($color-base-text, .5);
+          transition: border .6s;
+        }
       }
       .active {
         border: 1px solid $color-base-text;
@@ -32,12 +39,14 @@
     font-size: $font-heading-one;
     font-weight: 500;
     padding-top: 24rem; // Use padding because margin top colaps
+    letter-spacing: 0.1rem;
   }
   h2 {
     font-size: $font-heading-two; // No padding because of brainless reset
     padding-top: 1.7rem;
     font-weight: 300;
     opacity: .75;
+    word-spacing: 0.2rem;
   }
   form {
     padding-top: 2.8rem;
@@ -48,9 +57,10 @@
       border: 0;
       width: 50rem;
       border-radius: $size-control-border-radius 0 0 $size-control-border-radius;
-      background-color: rgba($color-background, .3);
+      background-color: rgba($color-background, .45);
       color: $color-base-text;
       outline: none;
+      font-size: $font-base;
 
       @include input-placeholder {
         color: rgba($color-base-text, .75);
@@ -66,6 +76,7 @@
       border-radius: 0 $size-control-border-radius $size-control-border-radius 0;
       background-color: $color-button;
       outline: none;
+      font-size: $font-base;
       text-transform: uppercase;
       transition: all;
       transition-duration: .6s;
@@ -73,6 +84,11 @@
         background-color: darken($color-button, 20%);
         transition: all;
         transition-duration: .6s;
+      }
+      &:active {
+        background-color: darken($color-button, 35%);
+        transition: all;
+        transition-duration: .15s;
       }
     }
   }

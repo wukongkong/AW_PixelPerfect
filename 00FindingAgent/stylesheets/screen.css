@@ -65,7 +65,7 @@ html {
 
 body {
   text-align: center;
-  font-size: 1.5rem;
+  font-size: 1.3rem;
   overflow-x: hidden;
 }
 
@@ -94,9 +94,17 @@ body {
   float: left;
   margin: 0 .1rem;
   padding: 1.5rem 2.3rem;
-  font-size: 1.5rem;
+  font-size: 1.3rem;
   border-radius: 2px;
   border: 1px solid transparent;
+  cursor: default;
+  -webkit-transition: border .6s;
+          transition: border .6s;
+}
+.hero header ul li:hover {
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  -webkit-transition: border .6s;
+          transition: border .6s;
 }
 .hero header ul .active {
   border: 1px solid white;
@@ -105,12 +113,14 @@ body {
   font-size: 2.5rem;
   font-weight: 500;
   padding-top: 24rem;
+  letter-spacing: 0.1rem;
 }
 .hero h2 {
-  font-size: 1.6rem;
+  font-size: 1.7rem;
   padding-top: 1.7rem;
   font-weight: 300;
   opacity: .75;
+  word-spacing: 0.2rem;
 }
 .hero form {
   padding-top: 2.8rem;
@@ -122,9 +132,10 @@ body {
   border: 0;
   width: 50rem;
   border-radius: 2px 0 0 2px;
-  background-color: rgba(255, 255, 255, 0.3);
+  background-color: rgba(255, 255, 255, 0.45);
   color: white;
   outline: none;
+  font-size: 1.3rem;
 }
 .hero form input[type="text"]:-moz-placeholder {
   color: rgba(255, 255, 255, 0.75);
@@ -147,6 +158,7 @@ body {
   border-radius: 0 2px 2px 0;
   background-color: #64DEA9;
   outline: none;
+  font-size: 1.3rem;
   text-transform: uppercase;
   -webkit-transition: all;
           transition: all;
@@ -159,6 +171,13 @@ body {
           transition: all;
   -webkit-transition-duration: .6s;
           transition-duration: .6s;
+}
+.hero form input[type="button"]:active {
+  background-color: #19764e;
+  -webkit-transition: all;
+          transition: all;
+  -webkit-transition-duration: .15s;
+          transition-duration: .15s;
 }
 
 /*# sourceMappingURL=screen.css.map */

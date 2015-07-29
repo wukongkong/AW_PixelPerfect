@@ -314,4 +314,84 @@ body {
   background-color: #DBDAD8;
 }
 
+.why-choose-us {
+  width: 80%;
+  margin: 0 auto;
+}
+.why-choose-us h2::after {
+  content: " ";
+  display: block;
+  background-color: #DBDAD8;
+  width: 4.2rem;
+  height: 0.3rem;
+  margin: 1rem auto;
+}
+.why-choose-us ul {
+  overflow: hidden;
+  *zoom: 1;
+  padding-bottom: 5rem;
+}
+.why-choose-us li {
+  float: left;
+  width: 45%;
+  height: 12rem;
+  overflow: hidden;
+  *zoom: 1;
+}
+.why-choose-us li:nth-child(even) {
+  margin-left: 10%;
+}
+.why-choose-us .fa {
+  font-size: 3rem;
+  display: block;
+  float: left;
+}
+.why-choose-us .detail {
+  width: 80%;
+  float: right;
+}
+.why-choose-us h2 {
+  font-size: 1.7rem;
+  font-weight: 500;
+  padding-top: 8.5rem;
+  padding-bottom: 6rem;
+}
+.why-choose-us h3 {
+  text-align: left;
+  font-size: 2rem;
+}
+.why-choose-us p {
+  text-align: left;
+  color: #6F6D70;
+  line-height: 2.6rem;
+}
+.why-choose-us .fa-check {
+  color: #79BE94;
+}
+.why-choose-us .fa-tag {
+  color: #54B8EE;
+}
+.why-choose-us .fa-refresh {
+  color: #E5A963;
+}
+.why-choose-us .fa-user {
+  color: #AF7AC2;
+}
+.why-choose-us .fa-book {
+  color: #EF637A;
+}
+.why-choose-us .fa-thumbs-o-up {
+  color: #ED7F5A;
+}
+.why-choose-us::after {
+  content: " ";
+  display: block;
+  width: 150%;
+  height: 0.1rem;
+  position: relative;
+  left: -20%;
+  margin: 10px 0;
+  background-color: #DBDAD8;
+}
+
 /*# sourceMappingURL=screen.css.map */

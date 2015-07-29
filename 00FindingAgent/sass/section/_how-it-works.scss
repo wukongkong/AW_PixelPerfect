@@ -9,14 +9,7 @@
     padding-bottom: 5.5rem;
     font-weight: 500;
     text-transform: uppercase;
-    &::after {
-      content: " ";
-      display: block;
-      background-color: $color-border;
-      width: 4.2rem;
-      height: 0.3rem;
-      margin: 1rem auto;
-    }
+    @include dash-under-heading;
   }
 
   ul {
@@ -90,15 +83,6 @@
     color: $color-second-text;
   }
 
-  &::after {
-    content: " ";
-    display: block;
-    width: 150%;
-    height: 0.1rem;
-    position: relative;
-    left: -20%;
-    margin: 10px 0;
-    background-color: $color-border;
-  }
+  @include  section-separator;
 
 }

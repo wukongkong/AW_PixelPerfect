@@ -1,0 +1,73 @@
+.why-choose-us {
+
+  width: 80%;
+  margin: 0 auto;
+
+  h2 {
+    @include dash-under-heading;
+  }
+
+  ul {
+    @include clearfix;
+    padding-bottom: 5rem;
+  }
+
+  li {
+    float: left;
+    width: 45%;
+    height: 12rem;
+    &:nth-child(even) {
+      margin-left: 10%;
+    }
+    @include clearfix;
+  }
+
+  .fa {
+    font-size: 3rem;
+    display: block;
+    float: left;
+  }
+  .detail {
+    width: 80%;
+    float:right;
+  }
+
+  h2 {
+    font-size: $font-heading-two;
+    font-weight: 500;
+    padding-top: 8.5rem;
+    padding-bottom: 6rem;
+  }
+
+  h3 {
+    text-align: left;
+    font-size: $font-heading-three;
+  }
+
+  p {
+    text-align: left;
+    color: $color-second-text;
+    line-height: 2.6rem;
+  }
+
+  .fa-check {
+    color: #79BE94;
+  }
+  .fa-tag {
+    color: #54B8EE;
+  }
+  .fa-refresh {
+    color: #E5A963;
+  }
+  .fa-user {
+    color: #AF7AC2;
+  }
+  .fa-book {
+    color: #EF637A;
+  }
+  .fa-thumbs-o-up {
+    color: #ED7F5A;
+  }
+
+  @include section-separator;
+}

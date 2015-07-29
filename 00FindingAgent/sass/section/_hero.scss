@@ -1,0 +1,79 @@
+.hero {
+  max-width: 140rem; // Fix width
+  margin: 0 auto; // Center Object
+  background: url("../img/Hero.jpg") no-repeat;
+  background-size: cover;
+  color: $color-base-text;
+  header {
+    padding-top: 3rem;
+    img {
+      width: 14.5rem;
+      float: left;
+      margin-left: 17rem;
+    }
+    ul {
+      float: right;
+      margin-right: 18rem;
+      li {
+        float: left;
+        margin: 0 .1rem;
+        padding: 1.5rem 2.3rem;
+        font-size: $font-base;
+        border-radius: $size-control-border-radius;
+        border: 1px solid transparent;
+      }
+      .active {
+        border: 1px solid $color-base-text;
+      }
+    }
+    @include clearfix;
+  }
+  h1 {
+    font-size: $font-heading-one;
+    font-weight: 500;
+    padding-top: 24rem; // Use padding because margin top colaps
+  }
+  h2 {
+    font-size: $font-heading-two; // No padding because of brainless reset
+    padding-top: 1.7rem;
+    font-weight: 300;
+    opacity: .75;
+  }
+  form {
+    padding-top: 2.8rem;
+    padding-bottom: 39rem;
+    input[type="text"] {
+      margin-right: -0.2rem;
+      padding: 2.3rem 3.5rem;
+      border: 0;
+      width: 50rem;
+      border-radius: $size-control-border-radius 0 0 $size-control-border-radius;
+      background-color: rgba($color-background, .3);
+      color: $color-base-text;
+      outline: none;
+
+      @include input-placeholder {
+        color: rgba($color-base-text, .75);
+      }
+
+    }
+    input[type="button"] {
+      margin-left: -0.2rem;
+      color: $color-base-text;
+      padding: 2.3rem 3.5rem;
+      border: 0;
+      width: 12rem;
+      border-radius: 0 $size-control-border-radius $size-control-border-radius 0;
+      background-color: $color-button;
+      outline: none;
+      text-transform: uppercase;
+      transition: all;
+      transition-duration: .6s;
+      &:hover {
+        background-color: darken($color-button, 20%);
+        transition: all;
+        transition-duration: .6s;
+      }
+    }
+  }
+}

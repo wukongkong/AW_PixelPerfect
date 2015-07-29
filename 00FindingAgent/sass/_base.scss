@@ -1,0 +1,32 @@
+// Color
+
+// Color - Text
+$color-base-text: white;
+
+// Color - General
+$color-background: white;
+
+// Color - Controls
+$color-button: #64DEA9;
+
+// Size
+
+// Size - Controls
+$size-control-border-radius: 2px;
+
+// Font
+html {
+  font-size: 62.5%;
+  font-family: 'Roboto', sans-serif;
+}
+
+$font-base: 1.5rem;
+$font-heading-one: 2.5rem;
+$font-heading-two: 1.6rem;
+$font-heading-three: 2.0rem;
+
+body {
+  text-align: center; // Brainless text align reset
+  font-size: $font-base;
+  overflow-x: hidden;
+}

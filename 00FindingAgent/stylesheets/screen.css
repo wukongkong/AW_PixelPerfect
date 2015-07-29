@@ -2,7 +2,6 @@
  * In this file you should write your main styles. (or centralize your imports)
  * Import this file using the following HTML or equivalent:
  * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
-/* line 5, ../../../../../../usr/local/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -24,45 +23,142 @@ time, mark, audio, video {
   vertical-align: baseline;
 }
 
-/* line 22, ../../../../../../usr/local/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
 html {
   line-height: 1;
 }
 
-/* line 24, ../../../../../../usr/local/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
 ol, ul {
   list-style: none;
 }
 
-/* line 26, ../../../../../../usr/local/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
 table {
   border-collapse: collapse;
   border-spacing: 0;
 }
 
-/* line 28, ../../../../../../usr/local/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
 caption, th, td {
   text-align: left;
   font-weight: normal;
   vertical-align: middle;
 }
 
-/* line 30, ../../../../../../usr/local/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
 q, blockquote {
   quotes: none;
 }
-/* line 103, ../../../../../../usr/local/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
 q:before, q:after, blockquote:before, blockquote:after {
   content: "";
   content: none;
 }
 
-/* line 32, ../../../../../../usr/local/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
 a img {
   border: none;
 }
 
-/* line 116, ../../../../../../usr/local/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
 article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
   display: block;
 }
+
+html {
+  font-size: 62.5%;
+  font-family: 'Roboto', sans-serif;
+}
+
+body {
+  text-align: center;
+  font-size: 1.5rem;
+  overflow-x: hidden;
+}
+
+.hero {
+  max-width: 140rem;
+  margin: 0 auto;
+  background: url("../img/Hero.jpg") no-repeat;
+  background-size: cover;
+  color: white;
+}
+.hero header {
+  padding-top: 3rem;
+  overflow: hidden;
+  *zoom: 1;
+}
+.hero header img {
+  width: 14.5rem;
+  float: left;
+  margin-left: 17rem;
+}
+.hero header ul {
+  float: right;
+  margin-right: 18rem;
+}
+.hero header ul li {
+  float: left;
+  margin: 0 .1rem;
+  padding: 1.5rem 2.3rem;
+  font-size: 1.5rem;
+  border-radius: 2px;
+  border: 1px solid transparent;
+}
+.hero header ul .active {
+  border: 1px solid white;
+}
+.hero h1 {
+  font-size: 2.5rem;
+  font-weight: 500;
+  padding-top: 24rem;
+}
+.hero h2 {
+  font-size: 1.6rem;
+  padding-top: 1.7rem;
+  font-weight: 300;
+  opacity: .75;
+}
+.hero form {
+  padding-top: 2.8rem;
+  padding-bottom: 39rem;
+}
+.hero form input[type="text"] {
+  margin-right: -0.2rem;
+  padding: 2.3rem 3.5rem;
+  border: 0;
+  width: 50rem;
+  border-radius: 2px 0 0 2px;
+  background-color: rgba(255, 255, 255, 0.3);
+  color: white;
+  outline: none;
+}
+.hero form input[type="text"]:-moz-placeholder {
+  color: rgba(255, 255, 255, 0.75);
+}
+.hero form input[type="text"]::-moz-placeholder {
+  color: rgba(255, 255, 255, 0.75);
+}
+.hero form input[type="text"]:-ms-input-placeholder {
+  color: rgba(255, 255, 255, 0.75);
+}
+.hero form input[type="text"]::-webkit-input-placeholder {
+  color: rgba(255, 255, 255, 0.75);
+}
+.hero form input[type="button"] {
+  margin-left: -0.2rem;
+  color: white;
+  padding: 2.3rem 3.5rem;
+  border: 0;
+  width: 12rem;
+  border-radius: 0 2px 2px 0;
+  background-color: #64DEA9;
+  outline: none;
+  text-transform: uppercase;
+  -webkit-transition: all;
+          transition: all;
+  -webkit-transition-duration: .6s;
+          transition-duration: .6s;
+}
+.hero form input[type="button"]:hover {
+  background-color: #27b577;
+  -webkit-transition: all;
+          transition: all;
+  -webkit-transition-duration: .6s;
+          transition-duration: .6s;
+}
+
+/*# sourceMappingURL=screen.css.map */

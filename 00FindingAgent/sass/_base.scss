@@ -32,3 +32,29 @@ body {
   font-size: $font-base;
   overflow-x: hidden;
 }
+
+// Mixin
+
+@mixin dash-under-heading {
+  &::after {
+    content: " ";
+    display: block;
+    background-color: $color-border;
+    width: 4.2rem;
+    height: 0.3rem;
+    margin: 1rem auto;
+  }
+}
+
+@mixin section-separator {
+  &::after {
+    content: " ";
+    display: block;
+    width: 150%;
+    height: 0.1rem;
+    position: relative;
+    left: -20%;
+    margin: 10px 0;
+    background-color: $color-border;
+  }
+}

@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /* Welcome to Compass.
  * In this file you should write your main styles. (or centralize your imports)
  * Import this file using the following HTML or equivalent:
@@ -156,7 +157,7 @@ body {
   border: 0;
   width: 12rem;
   border-radius: 0 2px 2px 0;
-  background-color: #64DEA9;
+  background-color: #64dea9;
   outline: none;
   font-size: 1.4rem;
   text-transform: uppercase;
@@ -194,15 +195,15 @@ body {
   float: left;
   width: 25%;
   box-sizing: border-box;
-  border: 1px solid #DBDAD8;
+  border: 1px solid #dbdad8;
   border-right: none;
-  background-color: #F4F3F1;
+  background-color: #f4f3f1;
 }
 .numbers ul li:first-child {
   border-radius: 2px 0 0 2px;
 }
 .numbers ul li:last-child {
-  border-right: 1px solid #DBDAD8;
+  border-right: 1px solid #dbdad8;
   border-radius: 0 2px 2px 0;
 }
 .numbers ul h2 {
@@ -215,7 +216,7 @@ body {
   padding-bottom: 4.5rem;
   font-size: 1.4rem;
   font-weight: 400;
-  color: #6F6D70;
+  color: #6f6d70;
 }
 
 .how-it-works {
@@ -232,7 +233,7 @@ body {
 .how-it-works h2::after {
   content: " ";
   display: block;
-  background-color: #DBDAD8;
+  background-color: #dbdad8;
   width: 4.2rem;
   height: 0.3rem;
   margin: 1rem auto;
@@ -252,7 +253,7 @@ body {
 .how-it-works li:nth-child(2)::before, .how-it-works li:nth-child(3)::before {
   display: block;
   content: " ";
-  background: #DBDAD8;
+  background: #dbdad8;
   height: 0.1rem;
   width: 35%;
   position: absolute;
@@ -271,9 +272,9 @@ body {
   position: relative;
   z-index: 999;
   font-size: 2rem;
-  border: 1px solid #DBDAD8;
-  color: #DBDAD8;
-  background-color: #F4F3F1;
+  border: 1px solid #dbdad8;
+  color: #dbdad8;
+  background-color: #f4f3f1;
   width: 5.5rem;
   height: 5.5rem;
   line-height: 5.5rem;
@@ -301,7 +302,7 @@ body {
 .how-it-works p {
   font-size: 1.4rem;
   line-height: 2.5rem;
-  color: #6F6D70;
+  color: #6f6d70;
 }
 .how-it-works::after {
   content: " ";
@@ -311,7 +312,7 @@ body {
   position: relative;
   left: -20%;
   margin: 10px 0;
-  background-color: #DBDAD8;
+  background-color: #dbdad8;
 }
 
 .why-choose-us {
@@ -321,7 +322,7 @@ body {
 .why-choose-us h2::after {
   content: " ";
   display: block;
-  background-color: #DBDAD8;
+  background-color: #dbdad8;
   width: 4.2rem;
   height: 0.3rem;
   margin: 1rem auto;
@@ -351,10 +352,11 @@ body {
   float: right;
 }
 .why-choose-us h2 {
-  font-size: 1.7rem;
+  font-size: 1.4rem;
   font-weight: 500;
   padding-top: 8.5rem;
   padding-bottom: 6rem;
+  text-transform: uppercase;
 }
 .why-choose-us h3 {
   text-align: left;
@@ -362,7 +364,7 @@ body {
 }
 .why-choose-us p {
   text-align: left;
-  color: #6F6D70;
+  color: #6f6d70;
   line-height: 2.6rem;
 }
 .why-choose-us .fa-check {
@@ -391,7 +393,145 @@ body {
   position: relative;
   left: -20%;
   margin: 10px 0;
-  background-color: #DBDAD8;
+  background-color: #dbdad8;
+}
+
+.testimonials {
+  width: 80%;
+  margin: 0 auto;
+}
+.testimonials .section {
+  padding-top: 10rem;
+  padding-bottom: 4rem;
+}
+.testimonials .section a {
+  text-decoration: none;
+  font-size: 1.7rem;
+  display: inline-block;
+  width: 19rem;
+  height: 6rem;
+  line-height: 6rem;
+  border: 0.1rem solid #dbdad8;
+}
+.testimonials .section #testimonials {
+  margin-right: -0.2rem;
+  border-right: none;
+  border-radius: 2px 0 0 2px;
+  color: white;
+  background-color: #6f6d70;
+}
+.testimonials .section #feedbacks {
+  border-radius: 0 2px 2px 0;
+  margin-left: -0.2rem;
+  border-left: none;
+  color: #6f6d70;
+}
+.testimonials blockquote {
+  padding-bottom: 4rem;
+}
+.testimonials blockquote p {
+  width: 80%;
+  margin: 0 auto;
+  font-size: 1.7rem;
+  line-height: 3rem;
+  font-weight: 400;
+  color: #6f6d70;
+}
+.testimonials blockquote .text::after {
+  content: " ";
+  display: block;
+  background-color: #dbdad8;
+  width: 4.2rem;
+  height: 0.1rem;
+  margin: 2.5rem auto;
+}
+.testimonials blockquote em, .testimonials blockquote span {
+  line-height: 1.9rem;
+  font-size: 1.4rem;
+  display: block;
+}
+.testimonials blockquote em {
+  font-weight: 400;
+}
+.testimonials blockquote span {
+  font-weight: 300;
+}
+.testimonials blockquote::before {
+  font-family: serif;
+  content: "\“";
+  font-size: 4rem;
+  display: block;
+  color: #dbdad8;
+}
+.testimonials ul {
+  display: inline-block;
+  overflow: hidden;
+  *zoom: 1;
+  padding-bottom: 12rem;
+}
+.testimonials li {
+  float: left;
+  position: relative;
+  width: 11rem;
+  height: 11rem;
+  border-radius: 100%;
+  border: 1px solid #dbdad8;
+}
+.testimonials li .img {
+  width: 10rem;
+  height: 10rem;
+  margin-left: 0.4rem;
+  margin-top: 0.4rem;
+  border-radius: 100%;
+  border: 1px solid #dbdad8;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.testimonials li:nth-child(2) {
+  margin: 0 4rem;
+}
+.testimonials li #user-0 {
+  background: url("../../img/user-0.png");
+}
+.testimonials li #user-0::after {
+  content: " ";
+  width: 10rem;
+  height: 10rem;
+  margin-left: 0.4rem;
+  margin-top: 0.4rem;
+  background: rgba(0, 0, 0, 0.55);
+  position: absolute;
+  top: 0.1rem;
+  left: 0.1rem;
+  border-radius: 100%;
+}
+.testimonials li #user-1 {
+  background: url("../../img/user-1.png");
+}
+.testimonials li #user-2 {
+  background: url("../../img/user-2.png");
+}
+.testimonials li #user-2::after {
+  content: " ";
+  width: 10rem;
+  height: 10rem;
+  margin-left: 0.4rem;
+  margin-top: 0.4rem;
+  background: rgba(0, 0, 0, 0.55);
+  position: absolute;
+  top: 0.1rem;
+  left: 0.1rem;
+  border-radius: 100%;
+}
+.testimonials::after {
+  content: " ";
+  display: block;
+  width: 150%;
+  height: 0.1rem;
+  position: relative;
+  left: -20%;
+  margin: 10px 0;
+  background-color: #dbdad8;
 }
 
 /*# sourceMappingURL=screen.css.map */

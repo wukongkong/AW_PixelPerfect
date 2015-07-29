@@ -1,0 +1,114 @@
+.testimonials {
+
+  width: 80%;
+  margin: 0 auto;
+
+
+  .section {
+    padding-top: 10rem;
+    padding-bottom: 4rem;
+    a {
+      text-decoration: none;
+      font-size: $font-heading-two;
+      display: inline-block;
+      width: 19rem;
+      height: 6rem;
+      line-height: 6rem;
+      border: 0.1rem solid $color-border;
+    }
+    #testimonials {
+      margin-right: -0.2rem;
+      border-right: none;
+      border-radius: $size-control-border-radius 0 0 $size-control-border-radius;
+      color: $color-base-text;
+      background-color: $color-second-text;
+    }
+    #feedbacks {
+      border-radius: 0 $size-control-border-radius $size-control-border-radius 0;
+      margin-left: -0.2rem;
+      border-left: none;
+      color: $color-second-text;
+    }
+  }
+
+  blockquote {
+    padding-bottom: 4rem;
+    p {
+      width: 80%;
+      margin: 0 auto;
+      font-size: $font-heading-two;
+      line-height: 3rem;
+      font-weight: 400;
+      color: $color-second-text;
+    }
+    .text {
+      @include dash-under-heading(0.1rem, 2.5rem);
+    }
+    em, span {
+      line-height: $font-base + 0.5rem;
+      font-size: $font-base;
+      display: block;
+    }
+    em {
+      font-weight: 400;
+    }
+    span {
+      font-weight: 300;
+    }
+
+    &::before {
+      font-family: serif;
+      content: "\“";
+      font-size: 4rem;
+      display: block;
+      color: $color-border
+    }
+  }
+
+
+  ul {
+    display: inline-block;
+    @include clearfix;
+    padding-bottom: 12rem;
+  }
+
+  li {
+    float: left;
+    position: relative;
+    width: 11rem;
+    height: 11rem;
+    border-radius: 100%;
+    border: 1px solid $color-border;
+
+    .img {
+      width: 10rem;
+      height: 10rem;
+      margin-left: 0.4rem;
+      margin-top: 0.4rem;
+      border-radius: 100%;
+      border: 1px solid $color-border;
+      background-size: cover;
+      background-repeat: no-repeat;
+    }
+
+    &:nth-child(2) {
+      margin: 0 4rem;
+    }
+
+    #user-0 {
+      background: url("../../img/user-0.png");
+      @include avatar-mask;
+    }
+    #user-1 {
+      background: url("../../img/user-1.png");
+    }
+    #user-2 {
+      background: url("../../img/user-2.png");
+      @include avatar-mask;
+    }
+
+  }
+
+  @include section-separator;
+
+}

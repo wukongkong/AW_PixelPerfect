@@ -1,18 +1,16 @@
 // Color
-
 // Color - Text
 $color-base-text: white;
-$color-second-text: #6F6D70;
+$color-second-text: #6f6d70;
 
 // Color - General
-$color-background: #F4F3F1;
+$color-background: #f4f3f1;
 
 // Color - Controls
-$color-button: #64DEA9;
-$color-border: #DBDAD8;
+$color-button: #64dea9;
+$color-border: #dbdad8;
 
 // Size
-
 // Size - Controls
 $size-control-border-radius: 2px;
 
@@ -21,12 +19,10 @@ html {
   font-size: 62.5%;
   font-family: 'Roboto', sans-serif;
 }
-
 $font-base: 1.4rem;
 $font-heading-one: 2.5rem;
 $font-heading-two: 1.7rem;
 $font-heading-three: 2.0rem;
-
 body {
   text-align: center; // Brainless text align reset
   font-size: $font-base;
@@ -34,18 +30,16 @@ body {
 }
 
 // Mixin
-
-@mixin dash-under-heading {
+@mixin dash-under-heading($height: 0.3rem, $margin: 1rem) {
   &::after {
     content: " ";
     display: block;
     background-color: $color-border;
     width: 4.2rem;
-    height: 0.3rem;
-    margin: 1rem auto;
+    height: $height;
+    margin: $margin auto;
   }
 }
-
 @mixin section-separator {
   &::after {
     content: " ";
@@ -56,5 +50,19 @@ body {
     left: -20%;
     margin: 10px 0;
     background-color: $color-border;
+  }
+}
+@mixin avatar-mask {
+  &::after {
+    content: " ";
+    width: 10rem;
+    height: 10rem;
+    margin-left: 0.4rem;
+    margin-top: 0.4rem;
+    background: rgba(0, 0, 0, .55);
+    position: absolute;
+    top: 0.1rem;
+    left: 0.1rem;
+    border-radius: 100%;
   }
 }

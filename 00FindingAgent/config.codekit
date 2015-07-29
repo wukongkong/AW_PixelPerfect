@@ -613,6 +613,39 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 1
 		},
+	"\/img\/user-0.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 20893,
+		"inputAbbreviatedPath": "\/img\/user-0.png",
+		"outputAbbreviatedPath": "\/img\/user-0.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/user-1.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 22945,
+		"inputAbbreviatedPath": "\/img\/user-1.png",
+		"outputAbbreviatedPath": "\/img\/user-1.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/user-2.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 28709,
+		"inputAbbreviatedPath": "\/img\/user-2.png",
+		"outputAbbreviatedPath": "\/img\/user-2.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/index.html": {
 		"fileType": 8192,
 		"ignore": 0,
@@ -738,6 +771,22 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/sass\/section\/_numbers.scss",
 		"outputAbbreviatedPath": "\/stylesheets\/_numbers.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
+	"\/sass\/section\/_testimonials.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/sass\/section\/_testimonials.scss",
+		"outputAbbreviatedPath": "\/stylesheets\/_testimonials.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,

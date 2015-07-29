@@ -70,7 +70,7 @@ body {
 }
 
 .hero {
-  max-width: 140rem;
+  max-width: 100%;
   margin: 0 auto;
   background: url("../img/Hero.jpg") no-repeat;
   background-size: cover;

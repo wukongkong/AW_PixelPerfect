@@ -65,7 +65,7 @@ html {
 
 body {
   text-align: center;
-  font-size: 1.3rem;
+  font-size: 1.4rem;
   overflow-x: hidden;
 }
 
@@ -94,7 +94,7 @@ body {
   float: left;
   margin: 0 .1rem;
   padding: 1.5rem 2.3rem;
-  font-size: 1.3rem;
+  font-size: 1.4rem;
   border-radius: 2px;
   border: 1px solid transparent;
   cursor: default;
@@ -135,7 +135,7 @@ body {
   background-color: rgba(255, 255, 255, 0.45);
   color: white;
   outline: none;
-  font-size: 1.3rem;
+  font-size: 1.4rem;
 }
 .hero form input[type="text"]:-moz-placeholder {
   color: rgba(255, 255, 255, 0.75);
@@ -158,7 +158,7 @@ body {
   border-radius: 0 2px 2px 0;
   background-color: #64DEA9;
   outline: none;
-  font-size: 1.3rem;
+  font-size: 1.4rem;
   text-transform: uppercase;
   -webkit-transition: all;
           transition: all;
@@ -178,6 +178,44 @@ body {
           transition: all;
   -webkit-transition-duration: .15s;
           transition-duration: .15s;
+}
+
+.numbers {
+  width: 80%;
+  margin: 0 auto;
+}
+.numbers ul {
+  position: relative;
+  top: -9rem;
+  overflow: hidden;
+  *zoom: 1;
+}
+.numbers ul li {
+  float: left;
+  width: 25%;
+  box-sizing: border-box;
+  border: 1px solid #DBDAD8;
+  border-right: none;
+  background-color: white;
+}
+.numbers ul li:first-child {
+  border-radius: 2px 0 0 2px;
+}
+.numbers ul li:last-child {
+  border-right: 1px solid #DBDAD8;
+  border-radius: 0 2px 2px 0;
+}
+.numbers ul h2 {
+  padding-top: 4.5rem;
+  font-size: 2.5rem;
+  font-weight: 500;
+}
+.numbers ul h3 {
+  padding-top: 2.5rem;
+  padding-bottom: 4.5rem;
+  font-size: 1.4rem;
+  font-weight: 400;
+  color: #6F6D70;
 }
 
 /*# sourceMappingURL=screen.css.map */

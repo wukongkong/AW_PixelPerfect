@@ -2,12 +2,14 @@
 
 // Color - Text
 $color-base-text: white;
+$color-second-text: #6F6D70;
 
 // Color - General
 $color-background: white;
 
 // Color - Controls
 $color-button: #64DEA9;
+$color-border: #DBDAD8;
 
 // Size
 
@@ -20,7 +22,7 @@ html {
   font-family: 'Roboto', sans-serif;
 }
 
-$font-base: 1.3rem;
+$font-base: 1.4rem;
 $font-heading-one: 2.5rem;
 $font-heading-two: 1.7rem;
 $font-heading-three: 2.0rem;

@@ -1,0 +1,39 @@
+.numbers {
+  width: 80%;
+  margin: 0 auto;
+
+  ul {
+    position: relative;
+    top: -9rem;
+
+    li {
+      float: left;
+      width: 25%;
+      box-sizing: border-box;
+      border: 1px solid $color-border;
+      border-right: none;
+      background-color: $color-background;
+      &:first-child{
+        border-radius: $size-control-border-radius 0 0 $size-control-border-radius;
+      }
+      &:last-child {
+        border-right: 1px solid $color-border;
+        border-radius: 0 $size-control-border-radius $size-control-border-radius 0;
+      }
+    }
+
+    h2 {
+      padding-top: 4.5rem;
+      font-size: $font-heading-one;
+      font-weight: 500;
+    }
+    h3 {
+      padding-top: 2.5rem;
+      padding-bottom: 4.5rem;
+      font-size: $font-base;
+      font-weight: 400;
+      color: $color-second-text;
+    }
+    @include clearfix;
+  }
+}
